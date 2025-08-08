@@ -1,0 +1,100 @@
+{
+  "header": {
+    "headerDetails": {
+      "title": "Phenomenex",
+      "headerDetail": ["Sign in / Register", "Country"]
+    },
+    "searchDetails": ["Quick Order", "Quote", "Cart"],
+    "navLinks": [
+      {
+        "name": "GC",
+        "url": "/gc"
+      },
+      {
+        "name": "LC",
+        "url": "/lc"
+      },
+      {
+        "name": "Sample Prep",
+        "url": "/sample-prep"
+      },
+      {
+        "name": "Industry Applications",
+        "url": "/industry-applications"
+      },
+      {
+        "name": "Resources",
+        "url": "/resources"
+      },
+      {
+        "name": "Our Company",
+        "url": "/our-company"
+      },
+      {
+        "name": "Country Selection",
+        "url": "/country-selection"
+      }
+    ]
+  },
+  "footer": {
+        "footerTitle": "Phenomenex",
+        "footerSubTitle": "Phenomenex is a technology leader committed to developing novel analytical chemistry solutions that solve the separation and purification challenges of researchers worldwide.",
+        "footerButton": "CONNECT WITH US",
+        "footerDetails": {
+          "products-and-services": [
+              {
+                  "name": "Products",
+                  "url": "/products"
+              },
+              {
+                  "name": "Techniques",
+                  "url": "/techniques"
+              },
+              {
+                  "name": "Industries",
+                  "url": "/industries"
+              },
+              {
+                  "name": "Quick Order",
+                  "url": "/quick-order"
+              }
+          ],
+          "support": [
+              {
+              "name": "Product/Method Support",
+              "url": "/product-method-support"
+              },
+              {
+              "name": "Troubleshooting Help",
+              "url": "/troubleshooting-help"
+              },
+              {
+              "name": "Contact Us",
+              "url": "/contact-us"
+              },
+              {
+              "name": "CQA / CofA",
+              "url": "/CQA-CofA"
+              }
+          ],
+          "our-company": [
+              {
+                  "name": "About Phenomenex",
+                  "url": "/about-phenomenex"
+              },
+              {
+                  "name": "Blog",
+                  "url": "/blog"
+              },
+              {
+                  "name": "News",
+                  "url": "/news"
+              },
+              {
+                  "name": "Danaher Life Sciences",
+                  "url": "/danaher-life-sciences"
+              }
+          ]
+        }
+    }
+} 

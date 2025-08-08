@@ -1,4 +1,4 @@
-footer {
+/* footer {
   background-color: var(--light-color);
   font-size: var(--body-font-size-xs);
 }
@@ -17,4 +17,89 @@ footer .footer p {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+} */
+
+
+footer {
+    background-color: #002948;
+}
+
+.footer-container {
+    padding: 20px 30px;
+    display: flex;
+    gap: 50px;
+
+    .footer-section {
+        width: 25%;
+
+        .footer-title {
+           font-family: proxima-nova, sans-serif;
+            color: white;
+            margin: 0;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .footer-subtitle {
+           font-family: proxima-nova, sans-serif;
+            color: rgb(255 255 255 / 70%);
+            margin: 15px 0 0;
+            font-size: 14px;
+        }
+
+        .footer-button {
+           font-family: proxima-nova, sans-serif;
+            background-color: #1876d1;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+    }
+}
+
+footer .footer > div {
+    margin: auto;
+    max-width: 1200px;
+}
+
+footer .footer p {
+    margin: 0;
+}
+
+.footer-details-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 10px 0 0;
+}
+
+.footer-detail {
+    .footer-detail-title {
+        font-family: proxima-nova, sans-serif;
+        color: #9da8d0;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0 0 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin: 10px 0;
+            color: white;
+            font-size: 14px;
+
+            a {
+                color: inherit;
+                text-decoration: none;
+                font-family: proxima-nova, sans-serif;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }
